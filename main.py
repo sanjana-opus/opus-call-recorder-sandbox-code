@@ -285,7 +285,8 @@ async def home():
                             </div>
                         ` : ''}
                     </div>
-                `).join('');
+                `;
+                }).join('');
             }
             
             document.getElementById('callForm').onsubmit = async (e) => {
